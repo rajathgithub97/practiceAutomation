@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-28T15:59:45 IST" name="Suite" finished-at="2024-04-28T16:00:06 IST" duration-ms="20816">
+    <groups>
+    </groups>
+    <test started-at="2024-04-28T15:59:45 IST" name="Test1" finished-at="2024-04-28T15:59:57 IST" duration-ms="12181">
+      <class name="qa.tests.TestCase1">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.TestCase1@61fe30]" started-at="2024-04-28T15:59:45 IST" name="beforeTestMethod" finished-at="2024-04-28T15:59:45 IST" duration-ms="382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.TestCase1@61fe30]" started-at="2024-04-28T15:59:45 IST" name="beforeMethod" finished-at="2024-04-28T15:59:52 IST" duration-ms="6804" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.TestCase1.successfullyRegisterUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="successfullyRegisterUser()[pri:0, instance:qa.tests.TestCase1@61fe30]" started-at="2024-04-28T15:59:52 IST" name="successfullyRegisterUser" finished-at="2024-04-28T15:59:56 IST" duration-ms="3403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- successfullyRegisterUser -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.TestCase1@61fe30]" started-at="2024-04-28T15:59:56 IST" name="afterMethod" finished-at="2024-04-28T15:59:56 IST" duration-ms="566" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=successfullyRegisterUser status=SUCCESS method=TestCase1.successfullyRegisterUser()[pri:0, instance:qa.tests.TestCase1@61fe30] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.TestCase1@61fe30]" started-at="2024-04-28T15:59:56 IST" name="afterTest" finished-at="2024-04-28T15:59:57 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.tests.TestCase1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-04-28T15:59:57 IST" name="Test2" finished-at="2024-04-28T16:00:06 IST" duration-ms="8556">
+      <class name="qa.tests.TestCase2">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:qa.tests.TestCase2@5ce8d869]" started-at="2024-04-28T15:59:57 IST" name="beforeTestMethod" finished-at="2024-04-28T15:59:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.reflect.Method)[pri:0, instance:qa.tests.TestCase2@5ce8d869]" started-at="2024-04-28T15:59:57 IST" name="beforeMethod" finished-at="2024-04-28T16:00:03 IST" duration-ms="5531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void qa.tests.TestCase2.loginWithValidCredentials()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:qa.tests.TestCase2@5ce8d869]" started-at="2024-04-28T16:00:03 IST" name="loginWithValidCredentials" finished-at="2024-04-28T16:00:05 IST" duration-ms="2207" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:qa.tests.TestCase2@5ce8d869]" started-at="2024-04-28T16:00:05 IST" name="afterMethod" finished-at="2024-04-28T16:00:05 IST" duration-ms="470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithValidCredentials status=SUCCESS method=TestCase2.loginWithValidCredentials()[pri:0, instance:qa.tests.TestCase2@5ce8d869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:qa.tests.TestCase2@5ce8d869]" started-at="2024-04-28T16:00:05 IST" name="afterTest" finished-at="2024-04-28T16:00:06 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- qa.tests.TestCase2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
